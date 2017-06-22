@@ -49,7 +49,7 @@ def start_calc():
                                   
         re_run()
 
-    if calc_select == 'quit' and 'exit' and 'close':
+    if calc_select == 'exit' or calc_select == 'quit' or calc_select == 'close':
 
         exit()
 
